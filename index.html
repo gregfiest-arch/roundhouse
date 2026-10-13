@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Roundhouse Workout Timer: build AMRAP, EMOM, For Time and Tabata workouts on your Roku and run them on the big screen.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Roundhouse Workout Timer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+:root { --bg: #11151C; --fg: #F4F6FA; --muted: #AEBACC; --rule: #2A3340; --accent: #FFAD91;
+  --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+main { max-width: 680px; margin: 0 auto; padding-inline: 20px; padding-block: 64px; display: grid; gap: 28px; }
+.mark { width: 96px; height: 96px; }
+h1 { font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: .05em; font-size: clamp(44px, 9vw, 72px); line-height: .95; margin: 0; }
+h1 span { display: block; font-weight: 700; font-size: .3em; letter-spacing: .3em; color: var(--muted); margin-top: .5em; }
+p { margin: 0; max-width: 60ch; }
+.modes { font-family: var(--display); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+nav { display: flex; gap: 22px; flex-wrap: wrap; border-top: 1px solid var(--rule); padding-top: 22px; font-weight: 600; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.contact { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
+    <polyline points="12,44 50,12 88,44" fill="none" stroke="#FFAD91" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="50" cy="63" r="24" fill="none" stroke="#2A3340" stroke-width="8"/>
+    <circle cx="50" cy="63" r="24" fill="none" stroke="#FFAD91" stroke-width="8" stroke-linecap="round" stroke-dasharray="113 151" transform="rotate(-90 50 63)"/>
+    <circle cx="50" cy="63" r="5" fill="#F4F6FA"/>
+  </svg>
+  <h1>Roundhouse<span>Workout Timer for Roku</span></h1>
+  <p class="modes">AMRAP · EMOM · For Time · Tabata</p>
+  <p>Build a workout on your TV with the remote: pick the format, set rounds and times, name your exercises, and stack blocks. Save up to 10 favorites, or start from a sample. A big, readable clock with audio cues runs it from across the room. No account, no ads, and nothing leaves your TV.</p>
+  <nav>
+    <a href="privacy/">Privacy Policy</a>
+    <a href="privacy/#terms">Terms of Use and Safety</a>
+  </nav>
+  <p class="contact">Support: roundhousetimer@gmail.com</p>
+</main>
+</body>
+</html>
